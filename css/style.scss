@@ -1,0 +1,38 @@
+/* 
+&display=swap
+&subset=cyrillic-ext
+*/
+@import url('https://fonts.googleapis.com/css?family=Inter:400,700&display=swap&subset=cyrillic-ext');
+@import '_null';
+
+html {
+  font-size: 14px;
+}
+body {
+  line-height: 1;
+  font-family: 'Inter', sans-serif;
+  color: #0a0a0a;
+  background: #fff;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+[class*='__container'] {
+  margin: 0px auto;
+  max-width: 1230px;
+  padding: 0px 15px;
+}
+
+.header {
+}
+.main {
+  flex: 1 1 auto;
+}
+
+.footer {
+}
